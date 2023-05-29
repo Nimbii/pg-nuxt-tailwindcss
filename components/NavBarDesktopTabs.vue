@@ -35,7 +35,6 @@
       size="xl"
       icon="mdi:pine-tree"
       trailing
-      color="secondary"
       ><span class="pl-2">Try Now</span>
     </BaseButton>
   </div>
