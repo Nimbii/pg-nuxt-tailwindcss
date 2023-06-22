@@ -34,10 +34,9 @@
               trailing
               target="_blank"
               trailing-icon="material-symbols:open-in-new"
-              size="md"
-            >
-              <span class="font-normal text-xl">Learn More</span>
-            </BaseButton>
+              size="xl"
+              label="Learn More!"
+            />
           </div>
         </div>
       </div>
