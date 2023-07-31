@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  // definePageMeta({
-  //   name: 'subscribe',
-  //   title: 'Subscribe',
-  //   navOrder: 3,
-  // })
+  definePageMeta({
+    name: 'subscribe',
+    title: 'Subscribe',
+    navOrder: 3,
+  })
 
   useHead({
     title: () => 'Subscribe',
