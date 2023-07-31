@@ -35,7 +35,7 @@
               to="https://vuedesigner.com"
               trailing
               target="_blank"
-              trailing-icon="material-symbols:open-in-new"
+              trailing-icon="i-material-symbols-open-in-new"
               size="xl"
               label="Learn More!"
             />

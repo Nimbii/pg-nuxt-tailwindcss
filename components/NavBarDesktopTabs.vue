@@ -33,7 +33,7 @@
       target="_blank"
       to="https://vuedesigner.com"
       size="xl"
-      icon="mdi:pine-tree"
+      icon="i-mdi-pine-tree"
       color="secondary"
       trailing
       ><span class="pl-2">Try Now</span>

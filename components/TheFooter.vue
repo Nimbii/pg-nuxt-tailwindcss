@@ -16,7 +16,11 @@
           external
           target="_blank"
         >
-          <Icon name="logos:facebook" class="text-2xl"></Icon>
+          <BaseIcon
+            name="i-logos-facebook"
+            class="text-2xl"
+            width="28px"
+          ></BaseIcon>
         </NuxtLink>
         <NuxtLink
           href="https://twitter.com/vuedesigner"
@@ -24,16 +28,23 @@
           external
           target="_blank"
         >
-          <Icon name="logos:twitter" class="text-2xl"></Icon>
+          <BaseIcon
+            name="i-logos-twitter"
+            class="text-2xl"
+            width="28px"
+          ></BaseIcon>
         </NuxtLink>
-
         <NuxtLink
           href="https://www.youtube.com/@vuedesigner"
           aria-label="youtube"
           external
           target="_blank"
         >
-          <Icon name="logos:youtube-icon" class="text-2xl"></Icon>
+          <BaseIcon
+            name="i-logos-youtube-icon"
+            class="text-2xl"
+            width="28px"
+          ></BaseIcon>
         </NuxtLink>
       </div>
     </div>

@@ -222,7 +222,7 @@
     v-bind="buttonProps"
   >
     <slot name="leading"></slot>
-    <Icon
+    <BaseIcon
       v-if="isLeading && leadingIconName"
       :name="leadingIconName"
       :class="leadingIconClass"
@@ -236,7 +236,7 @@
         {{ label }}
       </span>
     </slot>
-    <Icon
+    <BaseIcon
       v-if="isTrailing && trailingIconName"
       :name="trailingIconName"
       :class="trailingIconClass"
