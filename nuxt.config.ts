@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxt/content',
     '@vueuse/nuxt',
+    '@nuxtjs/html-validator',
   ],
   pinegrow: {
     liveDesigner: {
