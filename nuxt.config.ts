@@ -2,6 +2,7 @@
 import presetIcons from '@unocss/preset-icons'
 
 export default defineNuxtConfig({
+  // ssr: false,
   runtimeConfig: {
     public: {
       title: `Vue Designer`,
@@ -20,7 +21,7 @@ export default defineNuxtConfig({
   modules: [
     '@pinegrow/nuxt-module',
     '@unocss/nuxt',
-    '@nuxt/devtools',
+    // '@nuxt/devtools',
     '@nuxt/content',
     '@vueuse/nuxt',
     '@nuxtjs/html-validator',
