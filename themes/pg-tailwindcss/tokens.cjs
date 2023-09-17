@@ -213,6 +213,10 @@ const pg_colors = {
 
 const pg_fonts = { sans: ["'Sora', sans-serif"], serif: ["'Sora', sans-serif"] }
 
+const pg_font_urls = [
+  'https://fonts.googleapis.com/css?family=Sora:100,200,300,400,500,600,700,800|Sora:100,200,300,400,500,600,700,800&display=swap',
+]
+
 const pg_backgrounds = {
   'design-image':
     "url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGNhZmV8ZW58MHx8fHwxNjg2MTkzMDk2fDA&ixlib=rb-4.0.3&q=80&w=1080')",
@@ -229,5 +233,6 @@ const pg_backgrounds = {
 module.exports = {
   pg_colors,
   pg_fonts,
+  pg_font_urls,
   pg_backgrounds,
 }
