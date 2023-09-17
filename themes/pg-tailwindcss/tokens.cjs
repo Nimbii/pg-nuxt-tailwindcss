@@ -224,6 +224,13 @@ const pg_backgrounds = {
     "url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGNhZmV8ZW58MHx8fHwxNjg2MTkzMDk2fDA&ixlib=rb-4.0.3&q=80&w=2000')",
 }
 
+const pg_background_urls = {
+  'design-image':
+    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGNhZmV8ZW58MHx8fHwxNjg2MTkzMDk2fDA&ixlib=rb-4.0.3&q=80&w=1080',
+  'design-image-large':
+    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGNhZmV8ZW58MHx8fHwxNjg2MTkzMDk2fDA&ixlib=rb-4.0.3&q=80&w=2000',
+}
+
 /* Pinegrow generated Design Panel End */
 
 /* eslint-disable */
@@ -235,4 +242,5 @@ module.exports = {
   pg_fonts,
   pg_font_urls,
   pg_backgrounds,
+  pg_background_urls,
 }
