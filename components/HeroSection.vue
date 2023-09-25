@@ -11,8 +11,7 @@
 <template>
   <section>
     <div
-      class="bg-center bg-cover bg-no-repeat blur-none z-0"
-      :style="bgStyles"
+      class="bg-center bg-cover bg-no-repeat blur-none z-0 bg-design-image lg:bg-design-image-large"
     >
       <div
         class="pb-36 pt-2 px-6 relative rounded-3xl md:pb-48 lg:pb-72 lg:px-12"
