@@ -82,7 +82,7 @@
       { name: 'author', content: author },
       { name: 'keywords', content: route.meta.tags?.toString() },
     ],
-    // script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
+    script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
     link,
     noscript,
   })
