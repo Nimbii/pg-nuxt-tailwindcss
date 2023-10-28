@@ -17,7 +17,7 @@
               class="absolute flex items-center justify-center ml-2 my-0.5 z-10"
             >
               <NuxtImg
-                src="vue-designer.svg"
+                src="/vue-designer.svg"
                 provider="netlify"
                 height="28"
                 width="28"
