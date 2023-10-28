@@ -1,22 +1,5 @@
 <script setup lang="ts">
   const showTitle = ref(true)
-
-  const { optimizeImage } = useOptimizeImage()
-  const logo = {
-    alt: 'vue-designer',
-    cover: true,
-    ...optimizeImage(
-      'vue-designer.svg',
-      /* options */
-      {
-        provider:
-          process.env.NODE_ENV === 'production'
-            ? 'netlify'
-            : null /* defaults to ipx or ipxStatic */,
-        placeholder: false, // placeholder image before the actual image is fully loaded.
-      },
-    ),
-  }
 </script>
 <template>
   <div class="px-4 py-24 relative bg-primary-600 dark:bg-primary-200">
@@ -33,9 +16,12 @@
               v-if="showTitle"
               class="absolute flex items-center justify-center ml-2 my-0.5 z-10"
             >
-              <div class="h-[28px] w-[28px]">
-                <img v-bind="logo" />
-              </div>
+              <NuxtImg
+                src="vue-designer.svg"
+                provider="netlify"
+                height="28"
+                width="28"
+              />
               <span class="ml-1 mt-1 p-1 text-lg text-neutral-50"
                 >Vue Designer - Quick Start</span
               >
