@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  const config = useRuntimeConfig()
-  const { description } = config.public
+  import site from '@/site'
+  const { description } = site
 </script>
 <template>
   <div class="container mx-auto px-4 py-24 relative">

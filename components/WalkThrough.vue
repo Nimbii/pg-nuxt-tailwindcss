@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import vueDesignerLogo from '@/assets/images/vue-designer.svg'
   const showTitle = ref(true)
 </script>
 <template>
@@ -17,7 +16,7 @@
               v-if="showTitle"
               class="absolute flex items-center justify-center ml-2 my-0.5 z-10"
             >
-              <img :src="vueDesignerLogo" height="28" width="28" />
+              <NuxtImg src="vue-designer.svg" height="28" width="28" />
               <span class="ml-1 mt-1 p-1 text-lg text-neutral-50"
                 >Vue Designer - Quick Start</span
               >

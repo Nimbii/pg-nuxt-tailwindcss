@@ -1,12 +1,13 @@
 <script setup lang="ts">
   definePageMeta({
-    name: 'subscribe',
+    // layout: 'default',
+    // name: 'subscribe',
+    // alias: 'subscribe',
     title: 'Subscribe',
-    navOrder: 3,
-  })
-
-  useHead({
-    title: () => 'Subscribe',
+    description: `Don't Miss Out – Stay in the Know, Subscribe Today!`,
+    navOrder: '3',
+    type: 'secondary',
+    icon: 'i-mdi-home',
   })
 </script>
 <template>
