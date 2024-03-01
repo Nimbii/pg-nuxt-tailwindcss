@@ -49,7 +49,7 @@ Open your project in Vue Designer and follow the instructions displayed in the C
 ### Start your development server
 
 ```bash
-npm run dev
+npm run dev #
 ```
 
 ### Build
